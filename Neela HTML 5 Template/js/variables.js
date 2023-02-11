@@ -16,7 +16,7 @@ var hero_full_screen = true;                    //If true, the hero section will
 
 //HERO BACKGROUND SLIDESHOW IMAGES
 var slidehow_images = [
-    "./images/pexels-pixabay-325998.jpg",
+    "./images/engagement-photo.jpg",
     "./images/Denver-Botanical-Gardens.jpg",
     "./images/DevilsTower.jpg"
 ];

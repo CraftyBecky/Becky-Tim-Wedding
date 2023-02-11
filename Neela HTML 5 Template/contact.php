@@ -13,7 +13,7 @@ or subject, the default values (below) will be used.
 $emailto = 'beckymcd.timepp@gmail.com'; 	// Insert the email address that will receive the messages
 $fromName = 'Contact';					// Insert a default "From Name" (this field will be displayed in the email header)
 $fromEmail = 'default@yourdomain.com';	// Insert a default "From Email" address (this field will be displayed in the email header)
-$subject = 'Neela Contact Form';		// Insert a default contact form subject
+$subject = 'RSVP form';		// Insert a default contact form subject
 
 
 // Insert your Google reCaptcha V2 secret key
