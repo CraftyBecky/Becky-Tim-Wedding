@@ -16,9 +16,9 @@ var hero_full_screen = true;                    //If true, the hero section will
 
 //HERO BACKGROUND SLIDESHOW IMAGES
 var slidehow_images = [
-    "https://via.placeholder.com/1920x1080.png",
-    "https://via.placeholder.com/1920x1080.png",
-    "https://via.placeholder.com/1920x1080.png"
+    "./images/pexels-pixabay-325998.jpg",
+    "./images/Denver-Botanical-Gardens.jpg",
+    "./images/DevilsTower.jpg"
 ];
 
 //TIMELINE PARALLAX
@@ -53,42 +53,42 @@ var map_markers = [
         "title": "Reception",
         "latitude": 39.22818,
         "longitude": 104.89892,
-        "icon": "fas fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+        "icon": "far fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
         "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
     },
-    {
-        "title": "Accommodation 1",
-        "latitude": 33.777929,
-        "longitude": -118.076891,
-        "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Accommodation 1 <br> Rossmoor, CA 90720"
-    },
-    {
-        "title": "Accommodation 2",
-        "latitude": 33.780428,
-        "longitude": -118.084075,
-        "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Accommodation 2 <br> Los Alamitos, CA 90720"
-    },
-    {
-        "title": "Accommodation 3",
-        "latitude": 33.777551,
-        "longitude": -118.050468,
-        "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Accommodation 3 <br> Seal Beach, CA 90740"
-    },
-    {
-        "title": "Transportation",
-        "latitude": 33.782930,
-        "longitude": -118.060552,
-        "icon": "fas fa-plane", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Seal Beach VORTAC SLI <br> Los Alamitos, CA 90720"
-    },
+    // {
+    //     "title": "Accommodation 1",
+    //     "latitude": 33.777929,
+    //     "longitude": -118.076891,
+    //     "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Accommodation 1 <br> Rossmoor, CA 90720"
+    // },
+    // {
+    //     "title": "Accommodation 2",
+    //     "latitude": 33.780428,
+    //     "longitude": -118.084075,
+    //     "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Accommodation 2 <br> Los Alamitos, CA 90720"
+    // },
+    // {
+    //     "title": "Accommodation 3",
+    //     "latitude": 33.777551,
+    //     "longitude": -118.050468,
+    //     "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Accommodation 3 <br> Seal Beach, CA 90740"
+    // },
+    // {
+    //     "title": "Transportation",
+    //     "latitude": 33.782930,
+    //     "longitude": -118.060552,
+    //     "icon": "fas fa-plane", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Seal Beach VORTAC SLI <br> Los Alamitos, CA 90720"
+    // },
     {
         "title": "Ceremony",
         "latitude": 39.22818,
         "longitude": 104.89892,
-        "icon": "fas fa-bell", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+        "icon": "far fa-rings-wedding", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
         "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
     }
 ];
