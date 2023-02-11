@@ -45,7 +45,7 @@ var map_color = "#8eaeba";                      //Google map color
 var map_initial_zoom = 15;                      //The initial zoom when Google map loads
 var map_initial_latitude = 39.22818;           //Google map initial Latitude. If "null", the latitude of the first marked will be used
 var map_initial_longitude = 104.89892;        //Google map initial Longitude. If "null", the longitude of the first marked will be used
-var use_default_map_style = false;              //If true, default map style will be used
+var use_default_map_style = true;              //If true, default map style will be used
 
 //List of map markers
 var map_markers = [
@@ -56,27 +56,27 @@ var map_markers = [
         "icon": "far fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
         "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
     },
-    // {
-    //     "title": "Accommodation 1",
-    //     "latitude": 33.777929,
-    //     "longitude": -118.076891,
-    //     "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-    //     "infoWindow": "Accommodation 1 <br> Rossmoor, CA 90720"
-    // },
-    // {
-    //     "title": "Accommodation 2",
-    //     "latitude": 33.780428,
-    //     "longitude": -118.084075,
-    //     "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-    //     "infoWindow": "Accommodation 2 <br> Los Alamitos, CA 90720"
-    // },
-    // {
-    //     "title": "Accommodation 3",
-    //     "latitude": 33.777551,
-    //     "longitude": -118.050468,
-    //     "icon": "fas fa-bed", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-    //     "infoWindow": "Accommodation 3 <br> Seal Beach, CA 90740"
-    // },
+    {
+        "title": "Accommodation 1",
+        "latitude": 39.7392,
+        "longitude": 104.9903,
+        "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+        "infoWindow": "Denver <br> Denver, CO"
+    },
+    {
+        "title": "Accommodation 1",
+        "latitude": 33.780428,
+        "longitude": -118.084075,
+        "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+        "infoWindow": "Castle Rock <br> Castle Rock, CO"
+    },
+    {
+        "title": "Accommodation 3",
+        "latitude": 33.777551,
+        "longitude": -118.050468,
+        "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+        "infoWindow": "Colorado Springs <br> Colorado Springs, CO"
+    },
     // {
     //     "title": "Transportation",
     //     "latitude": 33.782930,
