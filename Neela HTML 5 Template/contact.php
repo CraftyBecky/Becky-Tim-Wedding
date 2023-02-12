@@ -17,7 +17,7 @@ $subject = 'RSVP form';		// Insert a default contact form subject
 
 
 // Insert your Google reCaptcha V2 secret key
-$secretkey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+$secretkey = "6LcKsXQkAAAAANxSTV8XK2-eNBpyi-FIR03DcU_q";
 
 
 
