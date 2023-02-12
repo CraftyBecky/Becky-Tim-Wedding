@@ -50,7 +50,7 @@ var use_default_map_style = true;              //If true, default map style will
 //List of map markers
 var map_markers = [
     {
-        "title": "Reception",
+        "title": "Ceremony & Reception",
         "latitude": 39.22818,
         "longitude": 104.89892,
         "icon": "far fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
@@ -84,11 +84,11 @@ var map_markers = [
     //     "icon": "fas fa-plane", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
     //     "infoWindow": "Seal Beach VORTAC SLI <br> Los Alamitos, CA 90720"
     // },
-    {
-        "title": "Ceremony",
-        "latitude": 39.22818,
-        "longitude": 104.89892,
-        "icon": "far fa-rings-wedding", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
-    }
+    // {
+    //     "title": "Ceremony",
+    //     "latitude": 39.22818,
+    //     "longitude": 104.89892,
+    //     "icon": "far fa-rings-wedding", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
+    // }
 ];
