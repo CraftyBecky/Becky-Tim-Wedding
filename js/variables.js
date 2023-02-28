@@ -52,7 +52,7 @@ var map_markers = [
     {
         "title": "Ceremony & Reception",
         "latitude": 39.22818,
-        "longitude": 104.89892,
+        "longitude": -104.89892,
         "icon": "far fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
         "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
     },
