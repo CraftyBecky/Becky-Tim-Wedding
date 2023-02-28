@@ -248,7 +248,7 @@
 						<div class="form-wrapper flowers neela-style">
 							<h2 class="section-title">Will you Attend?</h2>
 							
-							<form id="form-rsvp" method="post" action="#" enctype="multipart/form-data" data-netlify="true">
+							<form id="form-rsvp" method="post" action="/contact.php" enctype="multipart/form-data" data-netlify="true" data-netlify-recaptcha="true">
 								
 								<div class="form-floating">
 									<input type="text" name="Name" id="name" placeholder="Your Name*" class="form-control required fromName">
@@ -261,8 +261,8 @@
 								</div>
 
 								<div class="form-floating">
-									<input type="text" name="Phone" id="phone" placeholder="Phone" class="form-control">
-									<label for="name">Phone*</label>
+									<input type="text" name="Phone" id="phone" placeholder="Phone" class="form-control phone">
+									<label for="name">Phone</label>
 								</div>
 								
 								<div class="form-check-wrapper">
@@ -299,7 +299,7 @@
 								
 								<div class="form_status_message"></div>
 								
-								<div class="center">
+								<div class="center" data-netlify-recaptcha="true">
 									<button type="submit" class="btn btn-primary submit_form">Send</button>
 								</div>
 							</form>
