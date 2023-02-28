@@ -56,27 +56,27 @@ var map_markers = [
         "icon": "far fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
         "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
     },
-    {
-        "title": "Accommodation 1",
-        "latitude": 39.7392,
-        "longitude": 104.9903,
-        "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Denver <br> Denver, CO"
-    },
-    {
-        "title": "Accommodation 1",
-        "latitude": 33.780428,
-        "longitude": -118.084075,
-        "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Castle Rock <br> Castle Rock, CO"
-    },
-    {
-        "title": "Accommodation 3",
-        "latitude": 33.777551,
-        "longitude": -118.050468,
-        "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Colorado Springs <br> Colorado Springs, CO"
-    },
+    // {
+    //     "title": "Accommodation 1",
+    //     "latitude": 39.7392,
+    //     "longitude": 104.9903,
+    //     "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Denver <br> Denver, CO"
+    // },
+    // {
+    //     "title": "Accommodation 1",
+    //     "latitude": 33.780428,
+    //     "longitude": -118.084075,
+    //     "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Castle Rock <br> Castle Rock, CO"
+    // },
+    // {
+    //     "title": "Accommodation 3",
+    //     "latitude": 33.777551,
+    //     "longitude": -118.050468,
+    //     "icon": "far fa-city", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+    //     "infoWindow": "Colorado Springs <br> Colorado Springs, CO"
+    // },
     // {
     //     "title": "Transportation",
     //     "latitude": 33.782930,
