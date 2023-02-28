@@ -11,7 +11,7 @@ If none of the fields were set as emailTo, fromName, fromEmail
 or subject, the default values (below) will be used.
 */
 $emailto = 'beckymcd.timepp@gmail.com'; 	// Insert the email address that will receive the messages
-$fromName = 'Contact';					// Insert a default "From Name" (this field will be displayed in the email header)
+$fromName = 'Name';					// Insert a default "From Name" (this field will be displayed in the email header)
 $fromEmail = 'default@yourdomain.com';	// Insert a default "From Email" address (this field will be displayed in the email header)
 $subject = 'RSVP form';		// Insert a default contact form subject
 
