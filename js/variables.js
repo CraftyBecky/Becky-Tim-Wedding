@@ -43,16 +43,16 @@ var countdown_end_msg = "Event Started!";       //Message to display when the co
 var map_canvas_id = "map_canvas";               //The HTML "id" of the map canvas
 var map_color = "#8eaeba";                      //Google map color
 var map_initial_zoom = 15;                      //The initial zoom when Google map loads
-var map_initial_latitude = 39.22818;           //Google map initial Latitude. If "null", the latitude of the first marked will be used
-var map_initial_longitude = 104.89892;        //Google map initial Longitude. If "null", the longitude of the first marked will be used
+var map_initial_latitude = 39.225520;           //Google map initial Latitude. If "null", the latitude of the first marked will be used
+var map_initial_longitude = -104.899190;        //Google map initial Longitude. If "null", the longitude of the first marked will be used
 var use_default_map_style = true;              //If true, default map style will be used
 
 //List of map markers
 var map_markers = [
     {
         "title": "Ceremony & Reception",
-        "latitude": 39.22818,
-        "longitude": -104.89892,
+        "latitude": 39.225520,
+        "longitude": -104.899190,
         "icon": "far fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
         "infoWindow": "Colorado Renaissance Festival <br> 650 Perry Park Ave, Larkspur, CO 80118"
     },
