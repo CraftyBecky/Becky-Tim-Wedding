@@ -169,7 +169,7 @@
 								<div class="form-wrapper no-shadow overflow neela-style">
 									<h2 class="section-title">Will you Attend?</h2>
 									
-									<form id="form-rsvp" name="form-name" method="post" action="contact.php" enctype="application/x-www-form-urlencoded" data-netlify="true" data-netlify-recaptcha="true">
+									<form id="form-rsvp" name="form-name" method="post" action="contact.php" enctype="application/x-www-form-urlencoded" data-netlify="true">
 										
 										<div class="form-floating">
 											<input type="text" name="Name" id="name" placeholder="Your Name*" class="form-control required fromName">
@@ -181,6 +181,11 @@
 											<label for="email">E-mail*</label>
 										</div>
 										
+										<div class="form-floating">
+											<input type="text" name="Phone" id="phone" placeholder="Phone" class="form-control required">
+											<label for="name">Phone*</label>
+										</div>
+
 										<div class="form-check-wrapper">
 											<div class="form-check form-check-inline">
 												<input class="form-check-input required" type="radio" name="Attend wedding" id="attend_wedding_yes">
@@ -215,7 +220,11 @@
 										
 										<div class="form_status_message"></div>
 										
-										<div class="center" data-netlify-recaptcha="true">
+										<div class="center">
+											<div class="g-recaptcha" data-sitekey="6LdrMdYkAAAAAIcSCDLa8_D_EvQfBpzTc28qOoxC"></div>
+										</div>
+
+										<div class="center">
 											<button type="submit" class="btn btn-primary submit_form">Send</button>
 										</div>
 									</form>
@@ -317,6 +326,7 @@
 	<!-- Template Scripts -->
 	<script src="js/variables.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	
 </body>
 </html>
